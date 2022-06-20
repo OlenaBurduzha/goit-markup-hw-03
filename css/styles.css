@@ -160,6 +160,7 @@ color: var(--accent-color);
 .hero { 
    background-color: var(--footer-hero-color);
    text-align: center;
+   padding: 200px 0;
 }
 .hero-title {
     color: var(--background-heder-color);
@@ -175,15 +176,16 @@ color: var(--accent-color);
 .hero-button {
     color: var(--background-heder-color);
     background-color: var(--accent-color);
-    font-weight: 600px;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.9;
     letter-spacing: 0.06em;
     cursor: pointer;
     font-family: inherit;
     border-radius: 4px;
     padding: 10px 32px;
     margin-top: 30px;
+   
     
 }
 
@@ -193,7 +195,9 @@ color: var(--accent-color);
  color: var(--background-heder-color);
 }
 /*section #2*/
-
+.specialty {
+    padding-bottom: 0;
+}
 .specialty-list {
     display: flex;
 }
@@ -253,6 +257,7 @@ color: var(--accent-color);
     flex-basis: 270px;
 }
 .team-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -334,13 +339,14 @@ margin-right: 8px;
 .filter-button {
    background-color: var(--background-section-color);
     color: var(--title-text-color);   
-    width: 128px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
     border-radius: 4px;
+    padding: 6px 22px;
+    border: none;
    }
 
 .filter-button.current,
